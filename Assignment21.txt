@@ -1,0 +1,14 @@
+--------task 1 
+
+hadoop fs -ls /user/acadgild  			== to check if directory exists or not
+
+hadoop fs -mkdir -p /user/acadgild/hadoop       == if directory doesn't exists then they this command to create a directory
+
+
+
+-------task 2
+
+
+
+echo "hello world" | hadoop fs -appendToFile - /user/acadgild/hadoop/wordcount.txt
+
